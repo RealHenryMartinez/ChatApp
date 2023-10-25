@@ -1,0 +1,32 @@
+.main-chat-input {
+  background-color: #424549;
+  outline: 0;
+  flex-grow: 2;
+  border: 0;
+}
+
+#chat-input-container {
+  padding: 0.25em;
+  border-style: solid;
+  background-color: #424549;
+  border-color: #424549;
+  border-radius: 5px;
+  display: flex;
+  width: auto;
+  align-items: center;
+  position: absolute;
+  bottom: 2%;
+  right: 5%;
+  left: 5%;
+}
+
+.icon-default {
+  object-fit: cover;
+  height: 100%;
+  width: auto; /* Adjust to the outside container*/
+  flex: 1;
+}
+
+#icon-list {
+  flex: 1;
+}

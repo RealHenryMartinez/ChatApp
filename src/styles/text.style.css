@@ -1,0 +1,17 @@
+
+/* Chat Room Header Styles */
+
+#chat-header {
+    font-size: 15px;
+    margin-inline: 1%;
+}
+
+#chat-header-hash-tag {
+    font-size: 30px;
+}
+
+#chat-header-container {
+    display: flex;
+    align-items: center;
+    border-bottom: 0.1em #282b30 solid;
+}
